@@ -44,7 +44,7 @@ Asset Export to BigQuery Example\
 Asset Feed Creation\
     Command: `gcloud asset feeds create activities --project=$GOOGLE_CLOUD_PROJECT 
 	--content-type=resource --asset-types="compute.googleapis.com.*" 
-	--pubsub-topic=projects/PROJECTID/topics/activities`
+	--pubsub-topic=projects/$GOOGLE_CLOUD_PROJECT/topics/activities`
 
 
 

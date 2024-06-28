@@ -39,10 +39,10 @@ Enabling the APIs\
     Command: `gcloud services list`
 
 Asset Export to BigQuery Example\
-    Command: `gcloud asset export --project PROJECTID --bigquery-table export --bigquery-dataset activities`
+    Command: `gcloud asset export --project $GOOGLE_CLOUD_PROJECT --bigquery-table export --bigquery-dataset activities`
 
 Asset Feed Creation\
-    Command: `gcloud asset feeds create activities --project=PROJECTID 
+    Command: `gcloud asset feeds create activities --project=$GOOGLE_CLOUD_PROJECT 
 	--content-type=resource --asset-types="compute.googleapis.com.*" 
 	--pubsub-topic=projects/PROJECTID/topics/activities`
 
